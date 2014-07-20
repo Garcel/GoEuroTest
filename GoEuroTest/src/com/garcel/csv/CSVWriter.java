@@ -8,7 +8,7 @@ import java.io.IOException;
 import org.apache.log4j.Logger;
 
 /**
- * Class CSWWriter which writes data to csv file.
+ * Class CSWWriter which writes data to a csv file.
  * @author IMENTEC
  *
  */

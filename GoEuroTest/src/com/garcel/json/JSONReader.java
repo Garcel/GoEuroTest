@@ -10,7 +10,7 @@ import java.net.HttpURLConnection;
 import org.apache.log4j.Logger;
 
 /**
- * Class JSONRedaer which reads data from the Location JSON API, by appending the API url with our String request.
+ * Class JSONRedaer which reads data from the Location JSON API, by appending the string we just introduced to the API url.
  * 
  * @author Garcel
  * Project "GoEuroTest"
@@ -25,7 +25,7 @@ public class JSONReader {
 	/**
 	 * Constructor.
 	 * 
-	 * @param st The string to be appender to the API url.
+	 * @param st The string to be appended to the API url.
 	 */
 	public JSONReader (String st){
 		logger = Logger.getLogger("JSONReader");
